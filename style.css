@@ -1,0 +1,47 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: #c9d1d4;
+  margin-bottom: 90px;
+}
+
+.head {
+  width: 100%;
+}
+
+.head p {
+  font-size: 200%;
+  text-align: center;
+  color: #4c798a;
+  font-family: impact;
+}
+
+#header {
+  margin: 30px 0;
+}
+
+#weekForm {
+  margin: 30px 0;
+}
+
+.footer {
+  background-color: #4c798a;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media only screen and (min-width: 800px) {
+  .head p {
+    font-size: 350%;
+  }
+}
